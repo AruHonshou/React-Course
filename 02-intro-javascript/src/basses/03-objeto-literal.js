@@ -14,6 +14,8 @@ const persona = {
 
 // console.table( persona );
 
+//nunca realizar esta asignacion/mutacion a menos que creemos un nuevo objeto con todas las propiedades
+//por eso el  { ...persona }
 const persona2 = { ...persona };
 persona2.nombre = 'Peter';
 
